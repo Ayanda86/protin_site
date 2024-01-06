@@ -654,18 +654,6 @@ section {
   background: rgba(254, 185, 0, 0.8);
 }
 
- /* #get-quote, .get-quote {
-  background: var(--color-primary);
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-#get-quote:hover, .get-quote:hover {
-  background: rgba(254, 185, 0, 0.8);
-} */
 
 @keyframes animate-loading {
   0% {
