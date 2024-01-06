@@ -557,7 +557,7 @@ section {
 }
 
 .get-started .php-email-form {
-  background: #fff;
+  background: #ebb8101a;
   padding: 30px;
   height: 100%;
 }
@@ -979,6 +979,11 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.testimonial-header {
+  background-color: #fcfcfc71;
+  border-radius: 10px;
 }
 .testimonials .testimonial-wrap {
   padding-left: 50px;
