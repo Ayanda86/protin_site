@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+ 
   /**
    * Mobile nav toggle
    */
@@ -204,4 +205,21 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
+});
+
+/*Header changes*/
+window.addEventListener('scroll', function() { 
+  var header = document.getElementById('header'); 
+  header.classList.toggle('scrolled', window.scrollY > 0); 
+});
+
+var navLinks = document.querySelectorAll('#navbar ul li a');
+
+navLinks.forEach(function(link) { 
+  link.addEventListener('click', function() { 
+    navLinks.forEach(function(link) { 
+      link.classList.remove('active'); 
+    }); 
+    this.classList.add('active'); 
+  }); 
 });
