@@ -24,7 +24,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "tnnhopi@gmail.com";
+$EmailTo = "info@woodland-wendyhouses.co.za";
 $Subject = "New Message Received";
 
 // prepare email body text
